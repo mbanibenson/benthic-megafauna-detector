@@ -3,7 +3,7 @@ from src import parameters
 
 if __name__ == '__main__':
 
-    annotations_data_directory = parameters.DIRECTORY_WITH_ANNOTATIONS_FOR_MODEL_TRAINING
+    annotations_data_directory = parameters.DIRECTORY_WITH_LABELED_TRAINING_EXAMPLES
     epochs = parameters.NUMBER_OF_EPOCHS
     image_size = parameters.IMAGE_SIZE
 
