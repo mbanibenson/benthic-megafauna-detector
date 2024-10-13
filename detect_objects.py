@@ -1,4 +1,4 @@
-from src.detection_utils import train_yolo_model
+from src.detection_utils import make_predictions
 from src import parameters
 
 if __name__ == '__main__':
