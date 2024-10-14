@@ -48,7 +48,7 @@ def train_yolo_model(annotations_data_directory, epochs=10, imgsz=640):
     #Generate YAML file
     yaml_file = generate_data_config_file(annotations_data_directory)
 
-    train_command = ['yolo', 'train', f'epochs={epochs}', f'imgsz={imgsz}', 'model=best.pt', f'data={yaml_file}']
+    train_command = ['yolo', 'train', f'epochs={epochs}', f'imgsz={imgsz}', 'model=yolo11n.pt', f'data={yaml_file}']
 
     completed_process = subprocess.run(train_command, )
     
